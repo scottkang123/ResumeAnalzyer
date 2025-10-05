@@ -1,0 +1,13 @@
+streamlit
+pdfplumber
+python-docx
+beautifulsoup4
+requests
+lxml
+spacy
+sentence-transformers
+faiss-cpu
+langchain
+numpy
+scikit-learn
+unstructured

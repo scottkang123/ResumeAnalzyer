@@ -1,0 +1,16 @@
+{
+  "skills": [
+    "python", "java", "c++", "go",
+    "javascript", "typescript", "react", "node.js",
+    "spring", "spring boot", "kafka", "hazelcast",
+    "mysql", "postgresql", "mongodb", "redis",
+    "aws", "gcp", "azure", "docker", "kubernetes",
+    "microservices", "rest", "rest api", "graphql",
+    "ci/cd", "terraform", "gitlab", "jenkins",
+    "spark", "hadoop", "airflow",
+    "machine learning", "pytorch", "tensorflow",
+    "nlp", "computer vision",
+    "faiss", "chroma", "langchain",
+    "linux", "bash"
+  ]
+}

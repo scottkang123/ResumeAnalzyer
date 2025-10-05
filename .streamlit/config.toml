@@ -1,0 +1,7 @@
+[server]
+headless = true
+runOnSave = true
+
+[theme]
+base="dark"
+primaryColor="#7cc5ff"
