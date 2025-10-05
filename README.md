@@ -41,8 +41,8 @@
 
 ## 📦 Project Structure
 
-
-ResumeAnalzyer/
+```text
+ResumeAnalyzer/
 ├─ app.py # Streamlit app (upload → scrape → analyze → generate)
 ├─ requirements.txt
 ├─ README.md
@@ -54,7 +54,7 @@ ResumeAnalzyer/
 │ └─ .gitkeep
 └─ .streamlit/
 └─ config.toml
-
+```
 
 
 ## 🚀 Quickstart
@@ -68,12 +68,16 @@ conda activate resumeanalyzer
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+conda install -y -c conda-forge numpy
 ```
+- installs spaCy’s small English model into your current Python environment so you can do nlp = spacy.load("en_core_web_sm")
+
 ### 3) Run LLM and UI
 ```bash
 ollama pull llama3.1:8b
 streamlit run app.py
 ```
+- 
 
 ## 🔍 How It Works (MVP Flow)
 - Parse resume → PDF/DOCX → raw text → split into bullets

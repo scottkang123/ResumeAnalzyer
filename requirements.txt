@@ -1,3 +1,4 @@
+numpy<2           # avoid binary wheels compiled against NumPy 1.x from breaking
 streamlit
 pdfplumber
 python-docx
